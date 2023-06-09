@@ -1,0 +1,107 @@
+@import url(./style.css);
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-bottom: 0; */
+}
+main{
+    height: 100vh;
+    background-color: bisque;
+    
+}
+main .login-box {
+    position: relative;
+    left: 50%;
+    top: 40%;
+    width:40vw;
+    padding: 3.7037vh 4.0833vw;
+    transform: translate(-50%, -50%);
+    background: rgb(190, 170, 144);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+#SignIn,#Login{
+    height: 6vh;
+    padding-top: 0;
+    margin-top: 0;
+}
+.login-box h2 {
+    margin: 0vh 0 0vh;
+    padding: 0;
+    font-size: 2.3vw;
+    color: #fff;
+    text-align: center;
+    
+  }
+  .login-box .user-box {
+    position: relative;
+  }
+  .toplog {
+    display: flex;
+    justify-content: center;
+  }
+  .login-box .user-box input {
+    width: 100%;
+    padding: 1.8vh 0;
+    font-size: 1vw;
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid#fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1.2vw;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    border:1px solid white;
+  }  
+  .login-box a:hover {
+    background: rgb(236, 147, 39);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(236, 147, 39),
+                0 0 25px rgb(236, 147, 39),
+                0 0 50px rgb(236, 147, 39),
+                0 0 100px rgb(236, 147, 39);
+  }
+.buttons{
+    display:flex;
+    justify-content: space-between;
+}
+.buttons button{
+  background-color: rgba(250, 235, 215, 0);
+  border: #ffffff00;
+}
+#cl{
+    color: rgb(237, 74, 74);
+}

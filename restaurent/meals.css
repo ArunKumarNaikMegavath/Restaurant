@@ -1,0 +1,63 @@
+@import url(main.css);
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    height: 110vh;
+}
+.cot1,.cot2,.cot3{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid salmon; */
+    height: 50vh;
+    margin-top: 3vh;
+    
+}
+.cot1{
+    margin-top: 0vh;
+}
+.fit1,.fit2,.fit3,.fit4{
+    /* border: 0.5px solid red; */
+    width: 21vw;
+}
+.fim img{
+    width:20.9vw;
+    height: 36vh;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    transition-duration: .5s;
+}
+.fte h2{
+    text-align: center;
+    color: rgb(221, 104, 104);
+    padding-bottom: 1vh;
+}
+.fte button{
+    /* margin-top: 2vh; */
+    height: 5vh;
+    width: 10vw;
+    border-radius: 2vw;
+    color: rgb(1, 1, 1);
+    background-color: rgb(255, 222, 181);
+    border: 0.1vw solid rgb(251, 193, 122);
+    font-size: 1.2vw;
+    padding-top: -3vh!important;
+    transition-duration: .5s;
+}
+.fte button:hover{
+background-color: rgb(251, 188, 110);
+cursor: pointer;
+color: white;
+}
+.fim img:hover{
+    transform: scale(1.05);
+}
+.nd3 h4{
+    text-align: center!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: bisque;
+    padding: 4vh 2vw;
+}

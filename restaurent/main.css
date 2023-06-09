@@ -1,0 +1,110 @@
+@import url(style.css);
+*{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    height: 200vh;
+    background-color: bisque;
+}
+nav .btn{
+    padding-left: 0.65vw;
+}
+.us{
+    padding: 4vh 1.2vw 0 0;
+}
+.nd6 img{
+    height: 7vh;
+    width: 3.5vw;
+    margin-right: 1vw;
+    border-radius: 2vw;
+    border: .2vw solid rgb(246, 159, 54);
+}
+.us span{
+    color: rgb(242, 47, 47);
+    text-transform: capitalize;
+}
+.blk{
+    margin-top: -9vh;
+    
+}
+#bk1,#bk2,#bk3{
+    display: flex;
+}
+
+#bk1 img,#bk3 img{
+    height: 50vh;
+    width: 40vw;
+    margin-left: 2vw;
+    transition-duration: 2s;
+    border: .1vw solid #ffbd6f;
+    padding: 2vh 0vw 2vh 1vw;
+}
+#bk1 h2, #bk2 h2,#bk3 h2{
+    width: 56vw;
+    margin-top: 4vh;
+    border: .1vw solid #ffbd6f;
+    font-size: 3vw;
+    text-align: center;
+    background-color: #ffe1bd;
+    padding-top: 3vh;
+    height: 42vh;
+}
+#bk1 h2 span,#bk2 h2 span,#bk3 h2 span{
+    color: red;
+}
+#bk1 h2 p,#bk3 h2 p{
+    padding: 5vh 5vw 0 10vw;
+    text-align: justify;
+    text-indent: 5vw;
+    font-size: 1.2vw;
+}
+.itms{
+    margin-top: 14vh;
+}
+#im2{
+    margin-left: 0!important;
+}
+#bk2 h2 p{
+    padding: 5vh 10vw 0 5vw;
+    text-align: justify;
+    text-indent: 5vw;
+    font-size: 1.2vw;
+}
+#bk2 img{
+    height: 50vh;
+    width: 40vw;
+    margin-left: 2vw;
+    transition-duration: 2s;
+    border: .1vw solid #ffbd6f;
+    padding: 2vh 1vw 2vh 0vw;
+}
+center h2{
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+#bel{
+    display:flex;
+    justify-content: space-around;
+}
+#bel div{
+    background-color: #fad09d;
+    height: 6vh;
+    width: 8vw;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart{
+    padding: 1vh 0.5vw;
+}
+
+#bel h2 {
+    background-color: #fad09d;
+    height: 6vh;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5vh 1vw;
+}

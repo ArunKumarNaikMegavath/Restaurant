@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 9.5vh;
+    background-color:rgba(255, 228, 196, 0.208);
+    justify-content: space-between;
+}
+.navbar img{
+    height:10vh;
+    width: 5.5vw;
+    margin-left: 1.2vw;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vw;
+    font-weight: 900;
+    margin-right: 1.2vw;
+    color: black;  
+}
+h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 900;
+    margin-right: 1.2vw;
+    color: rgb(58, 55, 55);
+    transition-duration: 0.7s;
+
+}
+div{
+    transition-duration: 0.4s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nd,.nd6{
+    display: flex;
+    align-items: center; 
+
+}
+.navbar input{
+    height: 5vh;
+    width: 18vw;
+    border-radius: 2vw;
+    padding: 0.2vh 0.6vw;
+    color: rgb(61, 59, 59);
+    background-color: rgba(255, 228, 196, 0.545);
+    border: 2px solid rgba(58, 56, 53, 0.208);
+    font-size: 1.2vw;
+    margin-right: 4vw;
+}
+h4:hover{
+    color: #000;
+    display: flex;
+    align-items: center;
+    transform: scale(1.2);
+    
+}
+.btn{
+    height: 5vh;
+    width: 5vw;
+    background-color: rgb(255, 255, 255);
+    border: 0.1vw solid rgb(246, 206, 158);
+    margin-right: 1.2vw;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    padding-left: 1.1vw;
+    font-size: 1vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+    transition-duration: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(246, 206, 158);
+    color:white;
+    transform: scale(1.1);
+    
+}
+.nd1:hover,.nd2:hover,.nd3:hover,.nd4:hover{
+    background-color: bisque;
+    height: 9vh;
+    width: auto;
+    padding: 0.2vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+p{
+    font-size: 0.82vw;
+    color: #444242;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Footer */
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    padding-left: 5px;
+}
+.footer{
+    background-color:rgba(255, 228, 196, 0.208);
+    padding: 70px 0;
+}
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+.footer-col h4{
+font-size: 18px;
+color: #d72f2f;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+text-decoration: none;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 300;
+color: #343434;
+display: block;
+transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+padding-left: 8px;
+border-left: .2vw solid red;
+}
+.footer-col .social-links img{
+width: 3.5vw;
+height: 7vh;
+box-shadow:0 0 5px #000;
+margin-right: 0.5vw;
+border-radius:1vw;
+padding: 1vh 0.5vw;
+background-color: #131313;
+}
+.cont1 .main{
+    display: flex;
+    justify-content: space-between;
+}
+.cont1 .main img{
+    height: 100vh;
+    width: 28vw;
+}
+.m1{
+    padding:17vh 10vw;
+    width: 70vw;
+}
+.mainhead{
+    font-size: 6vw;
+    color: #d72f2f;
+}
+span{
+    color: #000;
+}
+.emt{
+    font-size: 1.1vw;
+    padding-bottom: 3vh;
+    padding-top: 1vh;
+}
+#sub{
+    height: 7vh;
+    width: 40vw;
+    border: 0.2vw solid bisque;
+    border-radius: 2vw;
+    margin-right: 1vw;
+    padding: .5vh 1vw ;
+    font-size: 1.4vw;
+}
+#btnsub{
+    height: 7vh;
+    width: 6vw;
+    border-radius: 2vw;
+    background-color: antiquewhite;
+    border: 0.2vw solid bisque;
+    font-size: 1.1vw;
+}
+#btnsub:hover{
+    background-color: rgba(247, 190, 120, 0.836);
+    color: white;
+    
+}
